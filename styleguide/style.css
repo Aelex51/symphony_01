@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+@import url("https://fonts.googleapis.com/css?family=Rubik:bold");
+
+
+body {
+    padding-left: 5%;
+}
+.mainTitle {
+    padding-top: 4%;
+    text-align: center;
+}
+
+h2 {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.color1 {
+    width: 100px;
+    height:100px;
+    background-color: rgb(159, 85, 64);
+    margin-left: 20px;
+}
+
+.color2 {
+    width: 100px;
+    height:100px;
+    background-color: rgb(237, 237, 237);
+    margin-left: 20px;
+}
+
+.color3 {
+    width: 100px;
+    height:100px;
+    background-color: rgb(68, 68, 68);
+}
+
+.color4 {
+    width: 100px;
+    height:100px;
+    background-color: rgb(229, 229, 229);
+
+}
+
+.colorsContainer {
+    display:flex;
+    gap: 40px;
+}
+
+.RubikBold100 {
+    font-family: 'Rubik', serif;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.RubikBold80 {
+    font-family: 'Rubik', serif;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.Rubik {
+    font-family: 'Rubik', serif;
+}
